@@ -42,6 +42,5 @@ fun leftSide(root:TreeNode){
 fun binaryTreeBoundary(root: TreeNode?) {
     if (root == null) return
 
-
     leftSide(root)
 }
