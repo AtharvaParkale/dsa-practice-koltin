@@ -1,19 +1,26 @@
 package com.example.koltindsa
 
 import com.example.koltindsa.binary_tree.BinaryTree
-import com.example.koltindsa.binary_tree.questions.binaryTreeBoundary
 import com.example.koltindsa.binary_tree.questions.checkChildrenSum
+import com.example.koltindsa.binary_tree.questions.getCeilOfBT
+import com.example.koltindsa.binary_tree.questions.getFloorOfBT
 
 fun main() {
-//    val binaryTree = BinaryTree(listOf(10, 8, 2, 3, 5, null, null))
-//    val ans: Boolean =checkChildrenSum(binaryTree.getRoot())
-//    println("Ans :: $ans");
-    runAllTests()
+    val binaryTree = BinaryTree(listOf(8, 4, 12, 2, 6, 10, 14))
+
+    var temp: MutableList<Int> = mutableListOf();
+    temp.add(-1)
+    getFloorOfBT(binaryTree.getRoot(), temp, 11)
+    println("Floor :: ${temp[0]}")
+
+    temp = mutableListOf()
+    temp.add(-1)
+    getCeilOfBT(binaryTree.getRoot(), temp, 15)
+    println("Ceil :: ${temp[0]}");
 }
 
 data class TestCase(
-    val input: List<Int?>,
-    val expected: Boolean
+    val input: List<Int?>, val expected: Boolean
 )
 
 fun runAllTests() {
@@ -38,10 +45,8 @@ fun runAllTests() {
         println("  Expected = ${test.expected}")
         println("  Derived  = $derived")
 
-        if (derived == test.expected)
-            println("  ✅ PASSED")
-        else
-            println("  ❌ FAILED")
+        if (derived == test.expected) println("  ✅ PASSED")
+        else println("  ❌ FAILED")
 
         println("------------------------------------")
     }
