@@ -5,8 +5,15 @@ import com.example.koltindsa.arrays.questions.TwoSumProblem
 
 
 fun main() {
-    val question: ArrayBaseClass<List<Int>, Int> = TwoSumProblem()
-    question.solve(listOf(1, 2, 3, 4, 5))
+//    val question: ArrayBaseClass<List<Int>, Int> = TwoSumProblem()
+//    question.solve(listOf(1, 2, 3, 4, 5))
+
+
+    val list = listOf(3,4,1,1,9,8,7)
+
+    val demo:List<Int> = list.sorted()
+
+    print(list)
 }
 
 
