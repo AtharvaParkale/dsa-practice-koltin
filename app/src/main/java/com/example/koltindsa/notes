@@ -14,4 +14,11 @@
 14. How to add element at stae of mutable list in kotlin
 15. learn to sort Pair<>
 16, Learn to sort hash map based on custom comparator
-17. How to create a heap in koltin
+17. How to create a heap in kotlin
+18. Difference between Array,IntArray,List, MutableList in koltin, and their methods
+19. Conversion from array to mutable list and vice versa
+20. How to print Array<IntArray>
+21. How to loop through each data structure, using forEach
+22. Fifference between foreach and map
+23. it.contentToString(), what is this
+24. Mutable list (remove, add, add all)
