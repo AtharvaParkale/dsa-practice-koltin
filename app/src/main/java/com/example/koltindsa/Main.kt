@@ -13,7 +13,12 @@ fun main() {
 
     val demo:List<Int> = list.sorted()
 
-    print(list)
+    val x = 'B' - 'A' + 1
+    print(x)
+
+    val test : Array<Int> = Array(5){0}
+
+
 }
 
 
