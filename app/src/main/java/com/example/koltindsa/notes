@@ -1,9 +1,4 @@
 
-2. How to take input in kotlin?
-3. What is the difference a abstract and a interface in kotlin?
-4. What are the different types of list in kotlin?
-5. What are the different types of operation in kotlin?
-6. What is the difference between sorted and sortedBy
 7. Maps implementation in kotlin
 8. 2D matrix implementation in kotlin
 9. What are lambda functions in kotlin?
@@ -28,3 +23,6 @@
 28. Sorting array of strings
 29. Comparators with heap
 30. Graph representation in kotlin
+31. Difference between Map, HashMap, TreeMap
+32. All types of data structures in kotlin
+33. Difference between sorted and sorted by
