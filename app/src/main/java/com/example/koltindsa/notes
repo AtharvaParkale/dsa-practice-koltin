@@ -5,7 +5,7 @@
 11. What are different types of classes in kotlin?
 12. Lambda function to fill an array
 13. How to declare a array in kotlin with specific size
-14. How to add element at stae of mutable list in kotlin
+14. How to add element at state of mutable list in kotlin
 15. learn to sort Pair<>
 16, Learn to sort hash map based on custom comparator
 17. How to create a heap in kotlin
@@ -13,12 +13,12 @@
 19. Conversion from array to mutable list and vice versa
 20. How to print Array<IntArray>
 21. How to loop through each data structure, using forEach
-22. Fifference between foreach and map
+22. Difference between foreach and map
 23. it.contentToString(), what is this
 24. Mutable list (remove, add, add all)
 25. How to get sub string of a string
 26. String functions (Reverse, etc)
-27. Sub string in koltin
+27. Sub string in kotlin
 28. Sorting array of strings
 29. Comparators with heap
 30. Graph representation in kotlin
