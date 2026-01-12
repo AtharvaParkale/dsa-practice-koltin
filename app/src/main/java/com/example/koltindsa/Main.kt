@@ -11,7 +11,7 @@ fun main() {
 
     val list = listOf(3,4,1,1,9,8,7)
 
-    val demo:List<Int> = list.sorted()
+    val demo:List<Int> = list.sorted() 
 
     val x = 'B' - 'A' + 1
     print(x)

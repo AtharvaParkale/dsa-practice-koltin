@@ -25,3 +25,21 @@
 31. Difference between Map, HashMap, TreeMap
 32. All types of data structures in kotlin
 33. Difference between sorted and sorted by
+34. What is lifeCycleScope?
+35. What is suspend?
+36. What are dispatchers?
+37. What is Dispatchers.IO
+38. What is newSingleThreadExecuter()?
+39. What is 'by' keyword?
+40. WHat is R8 and Proguard?
+41. Different types of classes in koltin
+42. Activity lifecycle
+43. Launching activity in kotlin
+44. Executers in android?
+45. Android activity lifecycle?
+46. Different types of acticvity? Ontop etc
+47. What library u use to serialize data?
+48. What do u use to call any network call?
+49. Basic working of viewmodel
+50. Different types of dispatchers, which dispatcher to use where?
+51. Different types of scope, laucnh, global, default
