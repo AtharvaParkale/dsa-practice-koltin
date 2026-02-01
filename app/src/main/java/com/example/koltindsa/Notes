@@ -43,3 +43,19 @@
 49. Basic working of viewmodel
 50. Different types of dispatchers, which dispatcher to use where?
 51. Different types of scope, laucnh, global, default
+52. Lifecycle of App in Jetpack Compose
+53. Framework for unit testing
+54. Services, android, backgroud tasks, work manager
+55. Back stack in android
+56. Compose recomposition
+1. What is the difference between a shared flow and a StateFlow?
+2. When to use what while working on viewmodel in compose?
+3. What is launched effect in compose?
+4. How does viewModelScope.launch interact?
+5. What is recomposition, and when does it run?
+6. Why do we need this on auth graph  => popUpTo(Routes.LOGIN) { inclusive = true }
+7, When the keyboard opens at that time background UI must be scrollable -> How is this handled?
+8. What is keystore and why is it used in mobile app?
+9. How is keystore generated, and what is the working?
+10. suspend operator fun invoke(): UserProfile {} - Why operator is used here
+11. What is a refresh token? What is a access Token
